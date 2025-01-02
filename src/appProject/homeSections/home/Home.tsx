@@ -8,7 +8,7 @@ const Home = () => {
   const { searchQuery } = useSearch();
 
   const filteredData = data.filter((el) =>
-    el.title.toUpperCase().includes(searchQuery.toLowerCase())
+    el.title.toLowerCase().includes(searchQuery.toLowerCase())
   );
   return (
     <div>
