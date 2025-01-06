@@ -2,44 +2,50 @@
   padding: 30px;
   .home {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     gap: 20px;
-
-    .box {
+    .block {
       display: flex;
-      flex-direction: column;
-      align-items: center;
-      padding: 5px;
-      border: solid 2px #bdbdbd;
-      transition: 0.3s;
-      width: 300px;
-      height: 350px;
-      object-fit: cover;
-      overflow: hidden;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      .box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 5px;
+        border: solid 2px #747474;
+        transition: 0.3s;
+        width: 300px;
+        height: 350px;
+        object-fit: cover;
+        overflow: hidden;
 
-      &:hover {
-        transition: 1s;
-        border: solid 2px #ffffff;
+        &:hover {
+          transition: 0.5s;
+          border: solid 2px #ffffff;
+          background: #ffc400;
+
+          img {
+            width: 330px;
+          }
+          h1 {
+            font-weight: 500;
+            margin-top: -10px;
+            transition: 0.2s;
+          }
+        }
 
         img {
-          width: 330px;
-        }
-        h1 {
-          font-weight: 500;
-          margin-top: -10px;
+          width: 300px;
           transition: 0.2s;
         }
-      }
-
-      img {
-        width: 300px;
-        transition: 0.2s;
-      }
-      h1 {
-        font-weight: 300;
-        margin-top: 100px;
-        transition: 0.2s;
+        h1 {
+          font-weight: 300;
+          margin-top: 100px;
+          transition: 0.2s;
+        }
       }
     }
   }
