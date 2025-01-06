@@ -15,6 +15,7 @@ const Home = () => {
       {filteredData.length > 0 ? (
         filteredData.map((el, index) => (
           <div className="card" key={index}>
+            <img src={el.image} alt="" />
             <h1>{el.title}</h1>
           </div>
         ))
