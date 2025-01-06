@@ -1,27 +1,39 @@
-import React from 'react';
+import React from "react";
 
 export const useData = () => {
-
   const data = [
     {
-      title:"Саб-Зиро"
+      title: "Саб-Зиро",
+      image: "https://cdn-prod.mortalkombat.com/roster/sub-zero/body.webp",
     },
     {
-      title:"Скорпион"
-    },{
-      title:"Лю Кан"
-    },{
-      title:"Нуб Сайбот"
-    },{
-      title:"Джонни Кейдж"
-    },{
-      title:"Райдэн"
-    },{
-      title:"Фуджин"
-    },{
-      title:"Шао Кан"
+      title: "Скорпион",
+      image: "https://cdn-prod.mortalkombat.com/roster/scorpion/body.webp",
     },
-  ]
-  return  {data}
+    {
+      title: "Лю Кан",
+      image: "",
+    },
+    {
+      title: "Нуб Сайбот",
+      image: "https://cdn-prod.mortalkombat.com/roster/noob-saibot/body.webp",
+    },
+    {
+      title: "Джонни Кейдж",
+      image: "https://cdn-prod.mortalkombat.com/roster/johnny-cage/body.webp",
+    },
+    {
+      title: "Райдэн",
+      image: "https://cdn-prod.mortalkombat.com/roster/raiden/body.webp",
+    },
+    {
+      title: "Фуджин",
+      image: "https://cdn-prod.mortalkombat.com/roster/fujin/body.webp",
+    },
+    {
+      title: "Шао Кан",
+      image: "https://cdn-prod.mortalkombat.com/roster/shao-kahn/body.webp",
+    },
+  ];
+  return { data };
 };
- 
