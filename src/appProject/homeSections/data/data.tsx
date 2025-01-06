@@ -12,7 +12,7 @@ export const useData = () => {
     },
     {
       title: "Лю Кан",
-      image: "",
+      image: "https://cdn-prod.mortalkombat.com/roster/liu-kang/body.webp",
     },
     {
       title: "Нуб Сайбот",
