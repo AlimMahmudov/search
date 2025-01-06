@@ -1,11 +1,11 @@
 "use client";
 import { useSearch } from "@/stores/SearchStore";
-import React from "react";
+import scss from "./Search.module.scss";
 
 const Search = () => {
   const { searchQuery, setSearchQuery } = useSearch();
   return (
-    <div>
+    <div className={scss.Search}>
       <input
         value={searchQuery}
         onChange={(e) => setSearchQuery(e.target.value)}
