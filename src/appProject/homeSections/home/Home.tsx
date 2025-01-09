@@ -3,6 +3,7 @@ import React from "react";
 import { useData } from "../data/data";
 import { useSearch } from "@/stores/SearchStore";
 import scss from "./Home.module.scss";
+import Image from "next/image";
 
 const Home = () => {
   const { data } = useData();
@@ -20,7 +21,7 @@ const Home = () => {
             {filteredData.length > 0 ? (
               filteredData.map((el, index) => (
                 <div className={scss.box} key={index}>
-                  <img src={el.image} alt="" />
+                  <Image width={330} height={350} src={el.image} alt="" />
                   <h1>{el.title}</h1>
                 </div>
               ))
