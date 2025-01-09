@@ -5,13 +5,17 @@ import scss from "./Search.module.scss";
 const Search = () => {
   const { searchQuery, setSearchQuery } = useSearch();
   return (
-    <div className={scss.Search}>
-      <input
-        value={searchQuery}
-        onChange={(e) => setSearchQuery(e.target.value)}
-        type="text"
-        placeholder="search..."
-      />
+    <div id={scss.Search}>
+      <div className="container">
+        <div className={scss.search}>
+          <input
+            value={searchQuery}
+            onChange={(e) => setSearchQuery(e.target.value)}
+            type="text"
+            placeholder="search..."
+          />
+        </div>
+      </div>
     </div>
   );
 };
