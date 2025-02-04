@@ -8,13 +8,13 @@ const Search = () => {
     <div id={scss.Search}>
       <div className="container">
         <div className={scss.search}>
-          <button>o-</button>
           <input
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
             type="text"
             placeholder="search..."
           />
+          <button>o-</button>
         </div>
       </div>
     </div>
