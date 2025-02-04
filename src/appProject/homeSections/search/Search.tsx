@@ -14,7 +14,6 @@ const Search = () => {
             type="text"
             placeholder="search..."
           />
-          <button>o-</button>
         </div>
       </div>
     </div>
