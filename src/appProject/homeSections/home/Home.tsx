@@ -26,7 +26,7 @@ const Home = () => {
                 </div>
               ))
             ) : (
-              <p className="no-product">Нет продукта</p>
+              <p className="no-product">Нет продуктов</p>
             )}
           </div>
         </div>
