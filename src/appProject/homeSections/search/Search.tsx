@@ -14,7 +14,7 @@ const Search = () => {
             type="text"
             placeholder="search..."
           />
-          <button>o-</button>
+          <button className={scss.searchBtn}>o-</button>
         </div>
       </div>
     </div>
